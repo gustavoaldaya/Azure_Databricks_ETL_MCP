@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local operational state (may contain real storage paths / secrets)
+discovery.json
+*.discovery.json
+job.json
+.databrickscfg
+*.log
+
+# Spark local
+metastore_db/
+derby.log
+spark-warehouse/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
